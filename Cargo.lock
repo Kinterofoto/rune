@@ -385,6 +385,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "aurora-clock"
+version = "0.0.1"
+dependencies = [
+ "rune",
+ "rune-kit",
+]
+
+[[package]]
 name = "autocfg"
 version = "1.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"

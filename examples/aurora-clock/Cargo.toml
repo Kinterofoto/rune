@@ -1,0 +1,13 @@
+[package]
+name = "aurora-clock"
+version = "0.0.1"
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+rune = { path = "../../crates/rune" }
+rune-kit = { path = "../../crates/rune-kit" }
+
+[lints]
+workspace = true
